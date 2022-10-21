@@ -5,7 +5,7 @@ using UnityEngine;
 public class proximityLight : MonoBehaviour
 {
     [SerializeField] Transform enemy = null;
-    [SerializeField] float detectionRange = 6f;
+    //[SerializeField] float detectionRange = 10f;
     [SerializeField] float timer = 0f;
     Light myLight;
     [SerializeField] bool isClose;
@@ -22,11 +22,11 @@ public class proximityLight : MonoBehaviour
         isClose = false;
         flickerClose = false;
 
-        if (Vector3.Distance(enemy.position, transform.position) <= 3f)
+        if (Vector3.Distance(enemy.position, transform.position) <= 5f)
         {
             isClose = true;
         }
-        if (Vector3.Distance(enemy.position, transform.position) <= detectionRange)
+        if (Vector3.Distance(enemy.position, transform.position) <= 10f)
         {
             flickerClose = true;
         }
@@ -53,14 +53,14 @@ public class proximityLight : MonoBehaviour
             {
 
                 timer += Time.deltaTime;
-                if (timer < 1)
+                if (timer < 0.5)
                 {
                     myLight.intensity = 0;
                 }
                 else
                 {
                     myLight.intensity = 1;
-                    if (timer > 2)
+                    if (timer > 1)
                     {
                         timer = 0;
                     }
