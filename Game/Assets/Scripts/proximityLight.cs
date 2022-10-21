@@ -5,9 +5,11 @@ using UnityEngine;
 public class proximityLight : MonoBehaviour
 {
     [SerializeField] Transform enemy = null;
-    [SerializeField] float detectionRange = 5f;
+    [SerializeField] float detectionRange = 6f;
+    [SerializeField] float timer = 0f;
     Light myLight;
-    bool isClose;
+    [SerializeField] bool isClose;
+    [SerializeField] bool flickerClose;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,19 +20,56 @@ public class proximityLight : MonoBehaviour
     void Update()
     {
         isClose = false;
+        flickerClose = false;
 
-        if (Vector3.Distance(enemy.position, transform.position) <= detectionRange)
+        if (Vector3.Distance(enemy.position, transform.position) <= 3f)
         {
             isClose = true;
-            Debug.Log("test");
         }
-        if (isClose)
+        if (Vector3.Distance(enemy.position, transform.position) <= detectionRange)
         {
-            myLight.intensity = 0;
+            flickerClose = true;
         }
-        else
+        TurnOff();
+        Flicker();
+    }
+    void TurnOff()
+    {
+        if (flickerClose)
         {
-            myLight.intensity = 1;
+            if (isClose)
+            {
+
+                myLight.intensity = 0;
+            }
+        }
+    }
+    void Flicker()
+    {
+        if (!isClose)
+        {
+
+            if (flickerClose)
+            {
+
+                timer += Time.deltaTime;
+                if (timer < 1)
+                {
+                    myLight.intensity = 0;
+                }
+                else
+                {
+                    myLight.intensity = 1;
+                    if (timer > 2)
+                    {
+                        timer = 0;
+                    }
+                }
+            }
+            else
+            {
+                myLight.intensity = 1;
+            }
         }
     }
 }

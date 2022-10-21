@@ -62,17 +62,17 @@ public class playerController : MonoBehaviour
 
         currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
 
-        if (controller.isGrounded){
+        if (controller.isGrounded){ //check's if the player is on the ground
 
             velocityY = 0.0f;
             bhop -= Time.deltaTime;
 
-            if (bhop <= 0)
+            if (bhop <= 0)//resets the walk speed back to normal
             {
                 walkSpeed = normalWalkSpeed;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded){
+        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded){//jumping code
 
             walkSpeed += 0.5f;
             bhop = 0.1f;
