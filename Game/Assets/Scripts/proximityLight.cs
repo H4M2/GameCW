@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class proximityLight : MonoBehaviour
 {
-    [SerializeField] Transform enemy = null;
+    
     //[SerializeField] float detectionRange = 10f;
     [SerializeField] float timer = 0f;
     Light myLight;
     [SerializeField] bool isClose;
     [SerializeField] bool flickerClose;
+    Transform enemyVar;
     // Start is called before the first frame update
     void Start()
     {
         myLight = GetComponent<Light>();
+        enemyVar = GameObject.FindWithTag("Enemy").GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -22,11 +24,11 @@ public class proximityLight : MonoBehaviour
         isClose = false;
         flickerClose = false;
 
-        if (Vector3.Distance(enemy.position, transform.position) <= 5f)
+        if (Vector3.Distance(enemyVar.position, transform.position) <= 5f)
         {
             isClose = true;
         }
-        if (Vector3.Distance(enemy.position, transform.position) <= 10f)
+        if (Vector3.Distance(enemyVar.position, transform.position) <= 10f)
         {
             flickerClose = true;
         }
