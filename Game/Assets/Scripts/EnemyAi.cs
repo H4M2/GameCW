@@ -20,6 +20,10 @@ public class EnemyAi : MonoBehaviour
     public float sightRange;
     public bool playerInSightRange;
     public bool LOS;
+    public bool lostSight = false;
+
+    //Save position
+    public Vector3 lastSeen;
 
     void Start()
     {
@@ -32,10 +36,24 @@ public class EnemyAi : MonoBehaviour
         //Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, playerLayer);
         LOS = LineOfSight();
-        if (!playerInSightRange) Patroling();
-        if (playerInSightRange && !LOS) Patroling();
-        if (playerInSightRange && LOS) ChasePlayer();
-        //if (playerInAttackRange && playerInSightRange) AttackPlayer();
+
+        if (!playerInSightRange && !lostSight) 
+        {
+            Patroling();
+        }
+        if (playerInSightRange && !LOS && !lostSight) 
+        {
+            Patroling();
+        }
+        if (playerInSightRange && LOS)
+        {
+            ChasePlayer();
+        }
+        if (lostSight && !LOS)
+        {
+            FindPlayer();
+        }
+
     }
     bool LineOfSight()
     {
@@ -53,17 +71,20 @@ public class EnemyAi : MonoBehaviour
 
     void Patroling()
     {
-        Debug.Log("patrol");
+        //Debug.Log("patrol");
         if (!walkPointSet) SearchWalkPoint();
 
         if (walkPointSet)
+        {
             agent.SetDestination(walkPoint);
-
+        }
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
 
         //Walkpoint reached
         if (distanceToWalkPoint.magnitude < 1f)
+        {
             walkPointSet = false;
+        }
     }
     void SearchWalkPoint()
     {
@@ -74,12 +95,37 @@ public class EnemyAi : MonoBehaviour
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
         if (Physics.Raycast(walkPoint, -transform.up, 2f, levelLayer))
+        {
             walkPointSet = true;
+        }
+            
     }
 
     void ChasePlayer()
     {
-        Debug.Log("chase");
+        //Debug.Log("chase");
         agent.SetDestination(player.position);
+
+        //sets a flag when the player breaks line of sight
+        lostSight = true;
+        lastSeen = player.position;
+        
+    }
+    void FindPlayer()
+    {
+        Debug.Log("finding player");
+
+        agent.SetDestination(lastSeen);
+
+        Vector3 distanceTolastSeen = transform.position - lastSeen;
+
+        if (distanceTolastSeen.magnitude < 1f)
+        {
+            lostSight = false;
+        }
+        if (LOS)
+        {
+            lostSight = false;
+        }
     }
 }
