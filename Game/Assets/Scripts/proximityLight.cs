@@ -8,8 +8,8 @@ public class proximityLight : MonoBehaviour
     //[SerializeField] float detectionRange = 10f;
     [SerializeField] float timer = 0f;
     Light myLight;
-    [SerializeField] bool isClose;
-    [SerializeField] bool flickerClose;
+    bool isClose;
+    bool flickerClose;
     Transform enemyVar;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class proximityLight : MonoBehaviour
         {
             isClose = true;
         }
-        if (Vector3.Distance(enemyVar.position, transform.position) <= 10f)
+        if (Vector3.Distance(enemyVar.position, transform.position) <= 7f)
         {
             flickerClose = true;
         }
