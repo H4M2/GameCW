@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638018910198113755
     m_Hash: 1879351365
+=======
+      ticks: 638023803629013010
+    m_Hash: 3540139118
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: S:/Github/GameCW/Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638018910198113755
     m_Hash: 3497560541
+=======
+      ticks: 638023803629013010
+    m_Hash: 69924981
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
