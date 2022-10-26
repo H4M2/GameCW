@@ -172,7 +172,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4026beeb20a890c45a8b2c1e4d1221c1, type: 2}
+  - {fileID: 2100000, guid: 0d1d3e52ab9f5db45a563844c95253d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -337,7 +337,7 @@ Transform:
   - {fileID: 4188317060547204926}
   - {fileID: 4714329650492293433}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7511525752669164970
 MeshCollider:

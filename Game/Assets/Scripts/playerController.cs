@@ -13,7 +13,9 @@ public class playerController : MonoBehaviour
     [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float normalWalkSpeed = 0f;
     [SerializeField] bool lockCursor = true;
+    [SerializeField] private Transform respawn;
     float bhop;
+    private bool moveable = true;
 
     float cameraPitch = 0.0f;
     float velocityY = 0.0f;
@@ -38,8 +40,11 @@ public class playerController : MonoBehaviour
 
     void Update()
     {
-        UpdateMouseLook();
-        UpdateMovement();
+        if (moveable)
+        {
+            UpdateMouseLook();
+            UpdateMovement();
+        }
     }
 
     void UpdateMouseLook()
@@ -84,8 +89,18 @@ public class playerController : MonoBehaviour
         Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
 
         controller.Move(velocity * Time.deltaTime);
-
-
-
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            this.moveable = false;
+            FindObjectOfType<GameManager>().GameOver();
+        }
+        if (other.CompareTag("Finish"))
+        {
+            this.moveable = false;
+            FindObjectOfType<GameManager>().GameWon();
+        }
     }
 }
