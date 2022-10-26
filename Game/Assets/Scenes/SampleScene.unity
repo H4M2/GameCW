@@ -131,9 +131,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -190,6 +206,10 @@ PrefabInstance:
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -258,9 +278,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3406826740611688039, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925690078938232489, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372801419124207552, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781350569802491140, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
       propertyPath: m_Name
       value: Corridor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173168801835069654, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -273,9 +317,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -333,6 +393,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -368,9 +432,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -428,6 +512,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -439,6 +527,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -495,9 +591,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -510,9 +614,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -570,6 +690,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -581,9 +705,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -640,6 +784,10 @@ PrefabInstance:
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -713,9 +861,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3406826740611688039, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925690078938232489, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372801419124207552, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781350569802491140, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
       propertyPath: m_Name
       value: Corridor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173168801835069654, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -728,9 +900,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -788,6 +980,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -799,6 +995,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -855,9 +1059,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -977,9 +1189,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -1036,6 +1264,10 @@ PrefabInstance:
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1145,9 +1377,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -1205,6 +1453,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -1216,9 +1468,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -1276,6 +1548,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -1292,9 +1568,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -1352,6 +1644,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -1367,7 +1663,7 @@ GameObject:
   - component: {fileID: 324148034}
   - component: {fileID: 324148033}
   - component: {fileID: 324148032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CorridorWall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1465,9 +1761,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -1525,6 +1837,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -1581,9 +1897,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -1641,6 +1973,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -1662,9 +1998,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -1721,6 +2073,10 @@ PrefabInstance:
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1779,9 +2135,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -1839,6 +2215,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -1850,9 +2230,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -1909,6 +2309,10 @@ PrefabInstance:
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2118,9 +2522,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -2178,6 +2598,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -2189,9 +2613,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -2249,6 +2689,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -2265,9 +2709,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -2325,6 +2785,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -2336,6 +2800,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2392,9 +2864,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2417,9 +2897,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -2477,6 +2977,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -2488,9 +2992,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -2548,6 +3068,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_AddedGameObjects: []
@@ -2560,9 +3084,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -2608,6 +3152,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -2624,9 +3172,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -2672,6 +3240,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -2688,9 +3260,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -2748,6 +3336,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -2775,7 +3367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1038438617}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2858,6 +3450,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2914,9 +3514,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2948,7 +3556,7 @@ RectTransform:
   m_GameObject: {fileID: 1052301811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 9, y: 9, z: 9}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1791809593}
@@ -3064,9 +3672,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -3124,6 +3748,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -3135,9 +3763,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -3195,6 +3839,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -3216,9 +3864,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -3276,6 +3940,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -3287,9 +3955,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -3347,6 +4031,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -3368,9 +4056,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -3416,6 +4124,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_AddedGameObjects: []
@@ -3428,9 +4140,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -3488,6 +4216,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -3499,6 +4231,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3555,9 +4295,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3575,6 +4323,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3631,9 +4387,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3786,9 +4550,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -3846,6 +4626,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -3891,9 +4675,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -3950,6 +4754,10 @@ PrefabInstance:
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4090,9 +4898,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3406826740611688039, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925690078938232489, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372801419124207552, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781350569802491140, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
       propertyPath: m_Name
       value: Corridor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173168801835069654, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
@@ -4108,6 +4940,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4164,9 +5004,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4184,6 +5032,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 1730332232789769159, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690310644325849189, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3994748658878982767, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4240,9 +5096,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7150664285789064916, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
       propertyPath: m_Name
       value: CorridorFourWay (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281704578788959313, guid: ea2fdb1af86c7c245bc66d7bdb4d2d57, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4260,9 +5124,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -4320,6 +5200,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -4331,9 +5215,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -4391,6 +5295,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -4402,9 +5310,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -4462,6 +5386,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -4488,9 +5416,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -4547,6 +5495,10 @@ PrefabInstance:
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4659,6 +5611,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!4 &1795451408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2581817118137286428, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
+  m_PrefabInstance: {fileID: 1901639308845671245}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1829783782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4667,9 +5624,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -4715,6 +5692,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_AddedGameObjects: []
@@ -4727,9 +5708,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -4775,6 +5776,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_AddedGameObjects: []
@@ -4787,9 +5792,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -4847,6 +5868,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -4891,6 +5916,8 @@ GameObject:
   - component: {fileID: 1926091120}
   - component: {fileID: 1926091119}
   - component: {fileID: 1926091118}
+  - component: {fileID: 1926091123}
+  - component: {fileID: 1926091122}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -4978,6 +6005,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1926091122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926091117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1de8365096f3794a9bea9129faebf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 1926091123}
+  player: {fileID: 1795451408}
+  levelLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 10
+  sightRange: 10
+  playerInSightRange: 0
+  LOS: 0
+--- !u!195 &1926091123
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926091117}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 2
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 500
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &1947636112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4986,9 +6060,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -5045,6 +6135,10 @@ PrefabInstance:
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5118,9 +6212,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3406826740611688039, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925690078938232489, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372801419124207552, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781350569802491140, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
       propertyPath: m_Name
       value: Corridor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753916442129832531, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173168801835069654, guid: 37e3a1faa413bf949b141dcf174edf61, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5174,6 +6292,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
   m_PrefabInstance: {fileID: 1071066839}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2078452628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2078452630}
+  - component: {fileID: 2078452629}
+  m_Layer: 0
+  m_Name: AI map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2078452629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078452628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a16f787255c7c3041a91536172dc908f, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!4 &2078452630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078452628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.020721, y: 2.0629168, z: 14.145}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2097342786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -5187,9 +6367,29 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 726108124752888351, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_Name
       value: CorridorTurn (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066198402768671710, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223697450685380955, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864097825782031949, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487963587313776240, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714656822400359904, guid: 98913deb7239a704d83075c2a2187802, type: 3}
       propertyPath: m_RootOrder
@@ -5247,6 +6447,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8986371699025522666, guid: 98913deb7239a704d83075c2a2187802, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 98913deb7239a704d83075c2a2187802, type: 3}
@@ -5258,9 +6462,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1038438617}
     m_Modifications:
+    - target: {fileID: 3319076580052309441, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_Name
       value: CorridorTjunc (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540640593093550162, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968635749303175895, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367288968326974219, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7160473658355707500, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
       propertyPath: m_RootOrder
@@ -5318,6 +6538,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7429166548813929574, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f107b5ede644cc1498343545fdfde91e, type: 3}
@@ -5334,9 +6558,21 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1901639308502417807, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581817117865614268, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2581817118137286426, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581817118137286426, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2581817118137286428, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
       propertyPath: m_RootOrder

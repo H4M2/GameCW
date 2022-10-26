@@ -24,11 +24,11 @@ public class proximityLight : MonoBehaviour
         isClose = false;
         flickerClose = false;
 
-        if (Vector3.Distance(enemyVar.position, transform.position) <= 5f)
+        if (Vector3.Distance(enemyVar.position, transform.position) <= 4f)
         {
             isClose = true;
         }
-        if (Vector3.Distance(enemyVar.position, transform.position) <= 10f)
+        if (Vector3.Distance(enemyVar.position, transform.position) <= 6f)
         {
             flickerClose = true;
         }
