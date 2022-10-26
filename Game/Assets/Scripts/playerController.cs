@@ -10,8 +10,12 @@ public class playerController : MonoBehaviour
     [SerializeField] float gravity = -13.0f;
     [SerializeField] [Range(0.0f, 0.5f)] float moveSmoothTime = 0.3f;
     [SerializeField] [Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
-
+    [SerializeField] float jumpHeight = 1.0f;
+    [SerializeField] float normalWalkSpeed = 0f;
     [SerializeField] bool lockCursor = true;
+    [SerializeField] private Transform respawn;
+    float bhop;
+    private bool moveable = true;
 
     float cameraPitch = 0.0f;
     float velocityY = 0.0f;
@@ -25,6 +29,7 @@ public class playerController : MonoBehaviour
 
     void Start()
     {
+        normalWalkSpeed = walkSpeed;
         controller = GetComponent<CharacterController>();
         if (lockCursor)
         {
@@ -35,8 +40,11 @@ public class playerController : MonoBehaviour
 
     void Update()
     {
-        UpdateMouseLook();
-        UpdateMovement();
+        if (moveable)
+        {
+            UpdateMouseLook();
+            UpdateMovement();
+        }
     }
 
     void UpdateMouseLook()
@@ -59,14 +67,40 @@ public class playerController : MonoBehaviour
 
         currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
 
-        if (controller.isGrounded)
-            velocityY = 0.0f;
+        if (controller.isGrounded){ //check's if the player is on the ground
 
+            velocityY = 0.0f;
+            bhop -= Time.deltaTime;
+
+            if (bhop <= 0)//resets the walk speed back to normal
+            {
+                walkSpeed = normalWalkSpeed;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded){//jumping code
+
+            walkSpeed += 0.5f;
+            bhop = 0.1f;
+            velocityY += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
+            
+        }
         velocityY += gravity * Time.deltaTime;
 
         Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
 
         controller.Move(velocity * Time.deltaTime);
-
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            this.moveable = false;
+            FindObjectOfType<GameManager>().GameOver();
+        }
+        if (other.CompareTag("Finish"))
+        {
+            this.moveable = false;
+            FindObjectOfType<GameManager>().GameWon();
+        }
     }
 }
