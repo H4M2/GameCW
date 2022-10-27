@@ -24,6 +24,7 @@ public class EnemyAi : MonoBehaviour
 
     //Save position
     public Vector3 lastSeen;
+    public bool angry;
 
     void Start()
     {
@@ -40,18 +41,22 @@ public class EnemyAi : MonoBehaviour
         if (!playerInSightRange && !lostSight) 
         {
             Patroling();
+            angry = false;
         }
         if (playerInSightRange && !LOS && !lostSight) 
         {
             Patroling();
+            angry = false;
         }
         if (playerInSightRange && LOS)
         {
             ChasePlayer();
+            angry = true;
         }
         if (lostSight && !LOS)
         {
             FindPlayer();
+            angry = true;
         }
 
     }

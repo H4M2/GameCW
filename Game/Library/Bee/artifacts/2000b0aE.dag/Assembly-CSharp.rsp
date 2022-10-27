@@ -345,6 +345,7 @@
 "Assets/Scripts/EnemyAi.cs"
 "Assets/Scripts/playerController.cs"
 "Assets/Scripts/proximityLight.cs"
+"Assets/Scripts/sinwave.cs"
 -langversion:9.0
 
 /deterministic
