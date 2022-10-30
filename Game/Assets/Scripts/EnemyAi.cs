@@ -13,7 +13,7 @@ public class EnemyAi : MonoBehaviour
 
     //Patrol
     public Vector3 walkPoint;
-    bool walkPointSet;
+    public bool walkPointSet;
     public float walkPointRange;
 
     //Checks
@@ -77,6 +77,7 @@ public class EnemyAi : MonoBehaviour
     void Patroling()
     {
         //Debug.Log("patrol");
+        agent.speed = 3.0f;
         if (!walkPointSet) SearchWalkPoint();
 
         if (walkPointSet)
@@ -110,6 +111,7 @@ public class EnemyAi : MonoBehaviour
     {
         //Debug.Log("chase");
         agent.SetDestination(player.position);
+        agent.speed = 4.0f;
 
         //sets a flag when the player breaks line of sight
         lostSight = true;
@@ -118,13 +120,14 @@ public class EnemyAi : MonoBehaviour
     }
     void FindPlayer()
     {
-        Debug.Log("finding player");
+        //Debug.Log("finding player");
+        agent.speed = 3.0f;
 
         agent.SetDestination(lastSeen);
 
         Vector3 distanceTolastSeen = transform.position - lastSeen;
 
-        if (distanceTolastSeen.magnitude < 1f)
+        if (distanceTolastSeen.magnitude < 2f)
         {
             lostSight = false;
         }

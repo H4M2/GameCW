@@ -16,6 +16,7 @@ public class proximityLight : MonoBehaviour
     {
         myLight = GetComponent<Light>();
         enemyVar = GameObject.FindWithTag("Enemy").GetComponent<Transform>();
+        
     }
 
     // Update is called once per frame
@@ -23,12 +24,13 @@ public class proximityLight : MonoBehaviour
     {
         isClose = false;
         flickerClose = false;
-
-        if (Vector3.Distance(enemyVar.position, transform.position) <= 5f)
+        
+ 
+        if (Vector3.Distance(enemyVar.position, transform.position) <= 3f)
         {
             isClose = true;
         }
-        if (Vector3.Distance(enemyVar.position, transform.position) <= 7f)
+        else if (Vector3.Distance(enemyVar.position, transform.position) <= 7f)
         {
             flickerClose = true;
         }
