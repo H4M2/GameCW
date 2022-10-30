@@ -9,6 +9,7 @@ public class pickupWalkie : MonoBehaviour
     [SerializeField] GameObject itself;
     [SerializeField] GameObject enemy;
     [SerializeField] GameObject script;
+    [SerializeField] GameObject stuff;
 
 
     private bool showGUI;
@@ -55,8 +56,10 @@ public class pickupWalkie : MonoBehaviour
             activated = true;
             showGUI = false;
             script.GetComponent<FirstDoor>().setCard();
+            stuff.SetActive(false);
             StartCoroutine(Wait());
             
+
 
 
         }
@@ -76,9 +79,10 @@ public class pickupWalkie : MonoBehaviour
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(2);
-        //itself.SetActive(false);
         activated = false;
         itself.SetActive(false);
+        
+        
     }
 
 }
