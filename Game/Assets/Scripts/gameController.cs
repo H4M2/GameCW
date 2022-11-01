@@ -10,7 +10,7 @@ public class gameController : MonoBehaviour
     public bool isAngry;
     bool toggle;
 
-
+    private bool hidden;
 
     // Start is called before the first frame update
     void Start()

@@ -7,6 +7,7 @@ public class FirstDoor : MonoBehaviour
     Animator _doorAnim;
     private bool keycard = false;
     private bool showGUI = false;
+
     Rect rect = new Rect(Screen.width / 2, Screen.height / 2, 150, 25);
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
@@ -14,6 +15,7 @@ public class FirstDoor : MonoBehaviour
         if (keycard == true)
         {
             showGUI = false;
+
             _doorAnim.SetBool("character_nearby", true);
         }
         if(keycard == false)
@@ -40,7 +42,6 @@ public class FirstDoor : MonoBehaviour
     }
     public void setCard()
     { 
-
         keycard = true;
     }
     void OnGUI()
