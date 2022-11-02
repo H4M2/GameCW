@@ -51,6 +51,7 @@ public class pickupWalkie : MonoBehaviour
             
             //Teleports the enemy to the end of the hallway
             enemyAi.agent.Warp(new Vector3(12, 1, -26));
+            enemyAi.walkPointSet = false;
             activated = true;
             showGUI = false;
 
@@ -63,7 +64,7 @@ public class pickupWalkie : MonoBehaviour
             StartCoroutine(Wait());
 
         }
-        OnGUI();
+        //OnGUI();
     }
     void OnGUI()
     {

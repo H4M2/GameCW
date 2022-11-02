@@ -7,6 +7,7 @@ public class EnemyAi : MonoBehaviour
     public NavMeshAgent agent;
 
     public Transform player;
+    public GameObject gameController;
 
     public LayerMask levelLayer;
     public LayerMask playerLayer;
@@ -41,11 +42,13 @@ public class EnemyAi : MonoBehaviour
         if (!playerInSightRange && !lostSight) 
         {
             Patroling();
+            //Debug.Log("Patrolling");
             angry = false;
         }
         if (playerInSightRange && !LOS && !lostSight) 
         {
             Patroling();
+            //Debug.Log("Patrolling");
             angry = false;
         }
         if (playerInSightRange && LOS)
@@ -63,6 +66,10 @@ public class EnemyAi : MonoBehaviour
     bool LineOfSight()
     {
         if (Physics.Linecast(transform.position, player.position, levelLayer))
+        {
+            return false;
+        }
+        else if(gameController.GetComponent<gameController>().hidden)
         {
             return false;
         }
@@ -134,6 +141,14 @@ public class EnemyAi : MonoBehaviour
         if (LOS)
         {
             lostSight = false;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            gameController.GetComponent<gameController>().dead = true;
+            gameController.GetComponent<gameController>().deathSceneRunner();
         }
     }
 }

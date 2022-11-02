@@ -342,14 +342,18 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/exitDoor.cs"
 "Assets/Scripts/doorHandler.cs"
 "Assets/Scripts/EnemyAi.cs"
 "Assets/Scripts/FirstDoor.cs"
+"Assets/Scripts/flashlight.cs"
 "Assets/Scripts/gameController.cs"
 "Assets/Scripts/hide_script.cs"
+"Assets/Scripts/mazeLevelStart.cs"
 "Assets/Scripts/pickupWalkie.cs"
 "Assets/Scripts/playerController.cs"
 "Assets/Scripts/proximityLight.cs"
+"Assets/Scripts/reroutePower.cs"
 "Assets/Scripts/sinwave.cs"
 -langversion:9.0
 

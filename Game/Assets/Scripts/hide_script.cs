@@ -20,6 +20,11 @@ public class hide_script : MonoBehaviour
 
     //object variables
     [SerializeField] bool isHiding;
+    Rect rect = new Rect(Screen.width / 2, Screen.height / 2, 200, 25);
+    public LayerMask theLocker;
+
+    bool showGui = false;
+
     void Start()
     {
         //Player Variables
@@ -37,35 +42,56 @@ public class hide_script : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         RaycastHit hit;
+        //OnGUI();
+        showGui = false;
 
-        if (Physics.Raycast(player_Transform.position, player_Transform.TransformDirection(Vector3.forward), out hit, raylength) && !isHiding)
+        if (Physics.Raycast(player_Transform.position, player_Transform.TransformDirection(Vector3.forward), out hit, raylength))
         {
-            //Debug.Log("AYO");
-            if (Input.GetKeyDown("e"))  
+            //Debug.Log(hit.collider.gameObject.tag);
+            
+            showGui = true;
+            if (Input.GetKeyUp("e"))
             {
-                Debug.Log("yes?");
+                //Debug.Log("yes?");
                 hideCamera.enabled = true;
                 playerCamera.enabled = false;
 
-                Wait();
-                
-            }
-   
-        }
-        if (Input.GetKeyDown("e") && isHiding)
-        {
-            Debug.Log("this isnt happening");
-            hideCamera.enabled = false;
-            playerCamera.enabled = true;
+                isHiding = true;
+                gameController.GetComponent<gameController>().hidden = true;
+                playerScript.lockPlayerMovement();
+                playerScript.mouseSensitivity = 0;
 
-            Wait();
+            }
+            if (isHiding)
+            {
+                if (Input.GetKeyUp(KeyCode.LeftShift))
+                {
+                    //Debug.Log("this isnt happening");
+                    hideCamera.enabled = false;
+                    playerCamera.enabled = true;
+
+                    isHiding = false;
+                    gameController.GetComponent<gameController>().hidden = false;
+
+                    playerScript.ResetWalkspeed();
+                    playerScript.ResetMouse();
+                }
+            }
         }
     }
-    IEnumerator Wait() //function to deactive the sprint UI after 2 seconds
+    private void OnTriggerExit(Collider other)
     {
-        yield return new WaitForSeconds(2);
-        isHiding = !isHiding;
-
-
+        showGui = false;
+    }
+    void OnGUI()
+    {
+        if (showGui && !isHiding)
+        {
+            GUI.Box(rect, "Press E to Hide?");
+        }
+        if(showGui && isHiding)
+        {
+            GUI.Box(rect, "press shift to leave");
+        }
     }
 }

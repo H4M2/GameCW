@@ -5,13 +5,14 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     [SerializeField] Transform playerCamera = null;
-    [SerializeField] float mouseSensitivity = 3.5f;
-    [SerializeField] float walkSpeed = 6.0f;
-    [SerializeField] float gravity = -13.0f;
-    [SerializeField] [Range(0.0f, 0.5f)] float moveSmoothTime = 0.3f;
-    [SerializeField] [Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
+    public float mouseSensitivity = 2f;
+    public float walkSpeed = 3.0f;
+    public float gravity = -20.0f;
+    [Range(0.0f, 0.5f)] float moveSmoothTime = 0.13f;
+    [Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
     [SerializeField] float jumpHeight = 1.0f;
-    [SerializeField] float normalWalkSpeed = 0f;
+    float normalWalkSpeed = 0f;
+    float normalMouseSpeed = 0f;
     [SerializeField] bool lockCursor = true;
     float bhop;
 
@@ -25,9 +26,11 @@ public class playerController : MonoBehaviour
     Vector2 currentMouseDelta = Vector2.zero;
     Vector2 currentMouseDeltaVelocity = Vector2.zero;
 
+    bool canMove = true;
     void Start()
     {
         normalWalkSpeed = walkSpeed;
+        normalMouseSpeed = mouseSensitivity;
         controller = GetComponent<CharacterController>();
         if (lockCursor)
         {
@@ -39,7 +42,11 @@ public class playerController : MonoBehaviour
     void Update()
     {
         UpdateMouseLook();
-        UpdateMovement();
+        if (canMove)
+        {
+            UpdateMovement();
+        }
+        
     }
 
     void UpdateMouseLook()
@@ -69,7 +76,7 @@ public class playerController : MonoBehaviour
 
             if (bhop <= 0)//resets the walk speed back to normal
             {
-                walkSpeed = normalWalkSpeed;
+                ResetWalkspeed();
             }
         }
         if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded){//jumping code
@@ -91,5 +98,18 @@ public class playerController : MonoBehaviour
 
 
 
+    }
+    public void ResetWalkspeed()
+    {
+        walkSpeed = normalWalkSpeed;
+        canMove = true;
+    }
+    public void ResetMouse()
+    {
+        mouseSensitivity = normalMouseSpeed;
+    }
+    public void lockPlayerMovement()
+    {
+        canMove = false;
     }
 }
