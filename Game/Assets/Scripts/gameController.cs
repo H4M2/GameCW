@@ -97,6 +97,7 @@ public class gameController : MonoBehaviour
             playerScript.ResetMouse();
 
             showDeathGUI = false;
+            dead = false;
         }
         yield return null;
     }

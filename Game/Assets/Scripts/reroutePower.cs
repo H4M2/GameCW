@@ -23,7 +23,7 @@ public class reroutePower : MonoBehaviour
             
             gameScript.generator = true;
             playerFlashlight.SetActive(true);
-            enemyScript.sightRange = 10f;
+            //enemyScript.sightRange = 10f;
             enemyScript.agent.Warp(new Vector3(30, 0, 0));
 
             gameObject.SetActive(false);
