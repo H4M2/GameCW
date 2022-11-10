@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class doorHandler : MonoBehaviour
 {
+    //calls the the animation handler
     Animator _doorAnim;
-    // Start is called before the first frame update
+    
     private void OnTriggerEnter(Collider other)
     {
         _doorAnim.SetBool("character_nearby", true);
@@ -21,8 +22,4 @@ public class doorHandler : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

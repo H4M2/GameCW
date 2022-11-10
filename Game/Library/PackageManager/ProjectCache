@@ -550,7 +550,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A new input system which can be used as a more extensible and customizable
     alternative to Unity's classic input system in UnityEngine.Input.
   status: 4
@@ -592,9 +592,11 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     compatible:
     - 1.4.3
-    verified: 1.4.3
+    - 1.4.4
+    verified: 1.4.4
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -625,7 +627,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638000569960000000
   documentationUrl: 
@@ -3131,7 +3133,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -3166,6 +3168,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.6
     - 1.2.0-exp.7
     - 1.2.0
+    - 1.2.1
     compatible:
     - 1.1.1
     - 1.2.0-exp.1
@@ -3176,6 +3179,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.6
     - 1.2.0-exp.7
     - 1.2.0
+    - 1.2.1
     verified: 1.1.1
   dependencies:
   - name: com.unity.test-framework
@@ -3205,7 +3209,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637755928510000000
   documentationUrl: 
@@ -3232,7 +3236,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -3258,9 +3262,11 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.5.2
+    - 1.6.0
     compatible:
     - 1.4.3
     - 1.5.2
+    - 1.6.0
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3284,7 +3290,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637959096350000000
   documentationUrl: 
