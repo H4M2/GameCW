@@ -107,8 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1aa83c361f23a41b9d7cf5134958dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
-  detectionRange: 5
+  timer: 0
 --- !u!1 &8383036113276841117
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +141,7 @@ Transform:
   m_Children:
   - {fileID: 8383036113276967043}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8383036113275684425
 MeshFilter:

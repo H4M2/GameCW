@@ -8,32 +8,47 @@ public class proximityLight : MonoBehaviour
     //[SerializeField] float detectionRange = 10f;
     [SerializeField] float timer = 0f;
     Light myLight;
-    [SerializeField] bool isClose;
-    [SerializeField] bool flickerClose;
+    bool isClose;
+    bool flickerClose;
     Transform enemyVar;
+    gameController gameScript;
+
+    float normalIntensity = 0.75f;
     // Start is called before the first frame update
     void Start()
     {
         myLight = GetComponent<Light>();
         enemyVar = GameObject.FindWithTag("Enemy").GetComponent<Transform>();
+        gameScript = GameObject.FindWithTag("GameController").GetComponent<gameController>();
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        isClose = false;
-        flickerClose = false;
+        if (!gameScript.generator)
+        {
+            isClose = false;
+            flickerClose = false;
 
-        if (Vector3.Distance(enemyVar.position, transform.position) <= 4f)
-        {
-            isClose = true;
+
+            if (Vector3.Distance(enemyVar.position, transform.position) <= 3f)
+            {
+                isClose = true;
+            }
+            else if (Vector3.Distance(enemyVar.position, transform.position) <= 7f)
+            {
+                flickerClose = true;
+            }
+            TurnOff();
+            Flicker();
         }
-        if (Vector3.Distance(enemyVar.position, transform.position) <= 6f)
+        else
         {
-            flickerClose = true;
+            myLight.intensity = 0;
         }
-        TurnOff();
-        Flicker();
+
     }
     void TurnOff()
     {
@@ -61,7 +76,7 @@ public class proximityLight : MonoBehaviour
                 }
                 else
                 {
-                    myLight.intensity = 1;
+                    myLight.intensity = normalIntensity;
                     if (timer > 1)
                     {
                         timer = 0;
@@ -70,7 +85,7 @@ public class proximityLight : MonoBehaviour
             }
             else
             {
-                myLight.intensity = 1;
+                myLight.intensity = normalIntensity;
             }
         }
     }
