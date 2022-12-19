@@ -27,6 +27,12 @@ public class playerController : MonoBehaviour
     Vector2 currentMouseDeltaVelocity = Vector2.zero;
 
     bool canMove = true;
+
+    public Light flashLight;
+    public bool toggleFlashlight;
+    public flashlight flashLightScript;
+
+
     void Start()
     {
         normalWalkSpeed = walkSpeed;
@@ -45,6 +51,10 @@ public class playerController : MonoBehaviour
         if (canMove)
         {
             UpdateMovement();
+        }
+        if (!flashLightScript.spotted)
+        {
+            FlashLight();
         }
         
     }
@@ -98,6 +108,21 @@ public class playerController : MonoBehaviour
 
 
 
+    }
+    void FlashLight()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            toggleFlashlight = !toggleFlashlight;
+        }
+        if (toggleFlashlight)
+        {
+            flashLight.intensity = 1;
+        }
+        else
+        {
+            flashLight.intensity = 0;
+        }
     }
     public void ResetWalkspeed()
     {
