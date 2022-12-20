@@ -118,7 +118,7 @@ public class playerController : MonoBehaviour
         }
         if (toggleFlashlight)
         {
-            flashLight.intensity = 1;
+            flashLight.intensity = flashLightScript.normalIntensity;
         }
         else
         {

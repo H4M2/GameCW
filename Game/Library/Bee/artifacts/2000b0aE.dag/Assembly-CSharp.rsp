@@ -344,6 +344,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/exitDoor.cs"
 "Assets/Scripts/doorHandler.cs"
+"Assets/Scripts/doorMainRoom.cs"
 "Assets/Scripts/EnemyAi.cs"
 "Assets/Scripts/FirstDoor.cs"
 "Assets/Scripts/flashlight.cs"

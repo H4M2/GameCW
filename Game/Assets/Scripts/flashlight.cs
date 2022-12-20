@@ -6,7 +6,7 @@ public class flashlight : MonoBehaviour
 {
     float timer;
     [SerializeField] Light myLight;
-    public float normalIntensity = 1;
+    public float normalIntensity = 10;
 
     public bool spotted = false;
 
