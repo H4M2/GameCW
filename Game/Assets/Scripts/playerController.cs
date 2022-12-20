@@ -56,6 +56,7 @@ public class playerController : MonoBehaviour
         {
             FlashLight();
         }
+        debugButton();
         
     }
 
@@ -136,5 +137,14 @@ public class playerController : MonoBehaviour
     public void lockPlayerMovement()
     {
         canMove = false;
+    }
+
+    public void debugButton()
+    {
+        if (Input.GetKeyDown(KeyCode.Backslash))
+        {
+            Debug.Log("pushed!");
+            this.transform.position = new Vector3(-22f,1f, -1f);
+        }
     }
 }

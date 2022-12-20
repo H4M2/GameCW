@@ -351,6 +351,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/hide_script.cs"
 "Assets/Scripts/mazeLevelStart.cs"
+"Assets/Scripts/pickupFlashlight.cs"
 "Assets/Scripts/pickupWalkie.cs"
 "Assets/Scripts/playerController.cs"
 "Assets/Scripts/proximityLight.cs"
