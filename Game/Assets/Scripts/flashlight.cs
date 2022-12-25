@@ -6,7 +6,11 @@ public class flashlight : MonoBehaviour
 {
     float timer;
     [SerializeField] Light myLight;
-    public float normalIntensity = 1;
+    public float normalIntensity = 10;
+
+    public bool spotted = false;
+
+    public playerController playerScript;
 
     // Start is called before the first frame update
     void Start()
@@ -17,17 +21,23 @@ public class flashlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FireRay();
+        if (playerScript.toggleFlashlight)
+        {
+            FireRay();
+        }
+        
     }
     void FireRay()
     {
-        //Ray ray = new Ray(transform.position, transform.forward);
+
+        spotted = false;
+
         RaycastHit hitData;
         if(Physics.Raycast(transform.position, transform.forward, out hitData, 30f))
         {
             if (hitData.collider.tag == "Enemy")
             {
-                Debug.Log("yes");
+                spotted = true;
                 timer += Time.deltaTime;
                 if (timer < 0.2)
                 {

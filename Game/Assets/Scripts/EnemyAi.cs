@@ -42,13 +42,11 @@ public class EnemyAi : MonoBehaviour
         if (!playerInSightRange && !lostSight) 
         {
             Patroling();
-            //Debug.Log("Patrolling");
             angry = false;
         }
         if (playerInSightRange && !LOS && !lostSight) 
         {
             Patroling();
-            //Debug.Log("Patrolling");
             angry = false;
         }
         if (playerInSightRange && LOS)
@@ -65,18 +63,16 @@ public class EnemyAi : MonoBehaviour
     }
     bool LineOfSight()
     {
-        if (Physics.Linecast(transform.position, player.position, levelLayer))
+        if (Physics.Linecast(transform.position, player.position, levelLayer)) //checks if there is anything between the player and monster
         {
             return false;
         }
-        else if(gameController.GetComponent<gameController>().hidden)
+        else if(gameController.GetComponent<gameController>().hidden)//if player is hidden return false even if in line of sight
         {
             return false;
         }
         else
         {
-            //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-            //Debug.Log("no colides");
             return true;
         }
     }
