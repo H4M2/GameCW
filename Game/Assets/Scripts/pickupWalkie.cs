@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class pickupWalkie : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class pickupWalkie : MonoBehaviour
     [SerializeField] GameObject script;
     [SerializeField] GameObject stuff; //Stuff is the card and the walkie talkie 
 
+    public Text prompt;
 
     private bool showGUI;
     private bool activated =false;
@@ -28,14 +30,14 @@ public class pickupWalkie : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            showGUI = true;
+            prompt.text = "pickup keycard and walkie talkie?";
             inTrigger = true;
         }
     }
     private void OnTriggerExit(Collider other)
     {
 
-        showGUI = false;
+        prompt.text = "";
         inTrigger = false;
     }
 
@@ -47,41 +49,30 @@ public class pickupWalkie : MonoBehaviour
 
         if (Input.GetKeyDown("e") && inTrigger == true)
         {
+            prompt.text = "";
             walkie.SetActive(true);
             
             //Teleports the enemy to the end of the hallway
             enemyAi.agent.Warp(new Vector3(12, 1, -26));
             enemyAi.walkPointSet = false;
             activated = true;
-            showGUI = false;
-
             //Triggers the flag for allowing the player to open the door
             script.GetComponent<FirstDoor>().setCard();
 
             //makes the card and walkie talkie disappear from the floor
             stuff.SetActive(false);
 
+            prompt.text = "press shift to sprint";
+
             StartCoroutine(Wait());
 
         }
         //OnGUI();
     }
-    void OnGUI()
-    {
-        if(showGUI && !activated)
-        {
-            GUI.Box(rect, "pickup card and walkie-talkie?");
-        }
-        if (activated)
-        {
-            GUI.Box(rect, "press shift to sprint");
-        }
-    }
     IEnumerator Wait() //function to deactive the sprint UI after 2 seconds
     {
         yield return new WaitForSeconds(2);
-        activated = false;
-        itself.SetActive(false);
+        prompt.text = "";
         
         
     }

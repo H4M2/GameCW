@@ -27,6 +27,8 @@ public class EnemyAi : MonoBehaviour
     public Vector3 lastSeen;
     public bool angry;
 
+    private float timer;
+
     void Start()
     {
         player = GameObject.Find("Player").transform;
@@ -133,10 +135,23 @@ public class EnemyAi : MonoBehaviour
         if (distanceTolastSeen.magnitude < 2f)
         {
             lostSight = false;
+            timer = 0;
         }
         if (LOS)
         {
             lostSight = false;
+            timer = 0;
+        }
+        if (lostSight)
+        {
+            timer += Time.deltaTime;
+            //debug.log
+            if (timer > 6f) //sets a 6 second detection limit if monster doesnt reach the player's last found position in the next 5 seconds
+            {
+                lostSight = false;
+                timer = 0;
+                
+            }
         }
     }
     private void OnTriggerEnter(Collider other)
