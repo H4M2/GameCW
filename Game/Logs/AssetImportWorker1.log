@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.20f1 (01d83b40d570) revision 120891'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16216 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32703 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.20f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/chuan/Documents/GitHub/GameCW/Game
+S:/Github/GameCW/Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53492
-Successfully changed project path to: C:/Users/chuan/Documents/GitHub/GameCW/Game
-C:/Users/chuan/Documents/GitHub/GameCW/Game
+63220
+Successfully changed project path to: S:/Github/GameCW/Game
+S:/Github/GameCW/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,124 +47,120 @@ C:/Users/chuan/Documents/GitHub/GameCW/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.20f1 (01d83b40d570)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/chuan/Documents/GitHub/GameCW/Game/Assets
+[Subsystems] Discovering subsystems at path S:/Github/GameCW/Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 Super (ID=0x1e91)
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
     Vendor:   NVIDIA
-    VRAM:     8012 MB
-    Driver:   31.0.15.1700
+    VRAM:     8031 MB
+    Driver:   31.0.15.2756
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008322 seconds.
+Registered in 0.005918 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.737 seconds
 Domain Reload Profiling:
-	ReloadAssembly (842ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (737ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (542ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
-				TypeCache.Initialize (155ms)
-					TypeCache.ScanAssembly (154ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (130ms)
+				TypeCache.Initialize (130ms)
+					TypeCache.ScanAssembly (128ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (370ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (70ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004945 seconds.
+Registered in 0.005674 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\chuan\Documents\GitHub\GameCW\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\chuan\Documents\GitHub\GameCW\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image S:\Github\GameCW\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Github\GameCW\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 113.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.857 seconds
+- Completed reload, in  1.374 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1858ms)
-		BeginReloadAssembly (315ms)
+	ReloadAssembly (1375ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (1382ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1113ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (456ms)
-				TypeCache.Initialize (444ms)
-					TypeCache.ScanAssembly (436ms)
-				ResolveRequiredComponents (12ms)
+			SetupTypeCache (323ms)
+				TypeCache.Initialize (318ms)
+					TypeCache.ScanAssembly (313ms)
+				ResolveRequiredComponents (5ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (652ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (574ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3828 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (58.4 KB). Loaded Objects now: 4300.
+Unloading 29 unused Assets / (58.4 KB). Loaded Objects now: 4298.
 Memory consumption went from 0.58 GB to 0.58 GB.
-Total: 5.405500 ms (FindLiveObjects: 0.425200 ms CreateObjectMapping: 0.490300 ms MarkObjects: 4.325600 ms  DeleteObjects: 0.163100 ms)
+Total: 4.973200 ms (FindLiveObjects: 0.329700 ms CreateObjectMapping: 0.333100 ms MarkObjects: 4.227100 ms  DeleteObjects: 0.082000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -172,53 +168,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1076485.912889 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_CannedFood_MetallicSmoothness.png
-  artifactKey: Guid(4186fc06f925a4e48a2476eeec32dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_CannedFood_MetallicSmoothness.png using Guid(4186fc06f925a4e48a2476eeec32dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4452b1ab560c472232c6610d4de79b') in 0.109017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_Water_Normal.png
-  artifactKey: Guid(cb46e7cffe5a77540b6945c9e2178a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_Water_Normal.png using Guid(cb46e7cffe5a77540b6945c9e2178a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a14c65a9e782819586d9a3354cc66') in 0.091676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_Walkie_MetallicSmoothness.png
-  artifactKey: Guid(f8274b237a8cabe44a34fc3d5b8b09a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_Walkie_MetallicSmoothness.png using Guid(f8274b237a8cabe44a34fc3d5b8b09a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e1427ab732054237172fbf5e7aa17e') in 0.021537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_CannedFood_Normal.png
-  artifactKey: Guid(9df22ffc0b0e5d34782c15a50998e69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_CannedFood_Normal.png using Guid(9df22ffc0b0e5d34782c15a50998e69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a912eb1a80a8281d8443fb245622ed8a') in 0.027586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_Water_MetallicSmoothness.png
-  artifactKey: Guid(1624b8b06ece0e74598b53e620f43c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_Water_MetallicSmoothness.png using Guid(1624b8b06ece0e74598b53e620f43c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bef566a9bd2a22e71221afb3b0ac09b') in 0.025699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_Flashlight_Normal.png
-  artifactKey: Guid(07e685123e89d2849b8bbc1e59732c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_Flashlight_Normal.png using Guid(07e685123e89d2849b8bbc1e59732c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39f6fc625c592f9dd7c46f7ba88b030') in 0.030749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_Tape_Normal.png
-  artifactKey: Guid(6f9f582392dd78249bf14e5597172bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_Tape_Normal.png using Guid(6f9f582392dd78249bf14e5597172bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6c35cbd40c0c57ef2ac8b5f1912208') in 0.026267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Survival Tools/Textures/survivaltools2_Matches_MetallicSmoothness.png
-  artifactKey: Guid(99d1303e6ffdf874aa7e842d96f756ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Tools/Textures/survivaltools2_Matches_MetallicSmoothness.png using Guid(99d1303e6ffdf874aa7e842d96f756ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643f895195669bda4af7e778ea51402c') in 0.022285 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 333391.273219 seconds.
+  path: Assets/Prefabs/Player 1.prefab
+  artifactKey: Guid(8cc95d8d20b21524f8eb48fcc43a280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player 1.prefab using Guid(8cc95d8d20b21524f8eb48fcc43a280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a808d2832a7df2e5e681aa1de573a7fb') in 0.150514 seconds 
