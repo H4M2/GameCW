@@ -26,6 +26,7 @@ public class universalNoteScript : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
+
         prompt.text = "Press E to read Note";
         if (Input.GetKeyDown(KeyCode.E))
         {
