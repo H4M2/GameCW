@@ -10,8 +10,6 @@ public class pickupFlashlight : MonoBehaviour
     public GameObject flashLightPickup;
     public Text prompt;
 
-    
-
 
     void Start()
     {
