@@ -12,6 +12,8 @@ public class computerScript : MonoBehaviour
     public doorHandler doorScript;
     public Light spookyLight;
 
+    public AudioSource lightbreak;
+
     // Update is called once per frame
     private void OnTriggerStay(Collider other)
     {
@@ -40,8 +42,9 @@ public class computerScript : MonoBehaviour
     IEnumerator Spooky()
     {
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         spookyLight.intensity = 0;
+        lightbreak.enabled = true;
         
     }
 }
