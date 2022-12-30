@@ -26,6 +26,8 @@ public class gameController : MonoBehaviour
     public bool generator = false;
     bool showDeathGUI = false;
 
+    public float maxVolume = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +48,7 @@ public class gameController : MonoBehaviour
     {
         isAngry = enemy.GetComponent<EnemyAi>().angry;
 
-        float timeToFade = 1f;
+        float timeToFade = 3f;
         float timeElapsed = 0f;
 
         staticAudio.loop = isAngry;
@@ -57,8 +59,8 @@ public class gameController : MonoBehaviour
             toggle = true;
             while (timeElapsed < timeToFade)
             {
-                staticAudio.volume = Mathf.Lerp(0, 1, timeElapsed / timeToFade);
-                chaseMusic.volume = Mathf.Lerp(0, 1, timeElapsed / timeToFade);
+                staticAudio.volume = Mathf.Lerp(0, maxVolume, timeElapsed / timeToFade);
+                chaseMusic.volume = Mathf.Lerp(0, maxVolume, timeElapsed / timeToFade);
 
                 timeElapsed += Time.deltaTime;
                 yield return null;

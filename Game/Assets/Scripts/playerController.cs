@@ -32,6 +32,10 @@ public class playerController : MonoBehaviour
     public bool toggleFlashlight;
     public flashlight flashLightScript;
 
+    public AudioSource footstep;
+
+    private float timer;
+
 
     void Start()
     {
@@ -57,6 +61,19 @@ public class playerController : MonoBehaviour
             FlashLight();
         }
         debugButton();
+
+        if (controller.isGrounded)
+        {
+            walkingAudio();
+        }
+        else
+        {
+            footstep.enabled = false;
+        }
+        
+    
+
+
         
     }
 
@@ -147,4 +164,21 @@ public class playerController : MonoBehaviour
             this.transform.position = new Vector3(-22f,1f, -1f);
         }
     }
+    public void walkingAudio()
+    {
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            timer += Time.deltaTime;
+            if (timer > 0.5f)
+            {
+                footstep.enabled = true;
+            }
+        }
+        else
+        {
+            footstep.enabled = false;
+            timer = 0;
+        }
+    }
+
 }
