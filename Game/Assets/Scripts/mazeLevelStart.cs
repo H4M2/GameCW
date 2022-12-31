@@ -10,6 +10,8 @@ public class mazeLevelStart : MonoBehaviour
 
     public Text prompt;
 
+    public AudioSource ambient;
+
     void Start()
     {
         
@@ -19,6 +21,8 @@ public class mazeLevelStart : MonoBehaviour
         enemy.GetComponent<EnemyAi>().agent.Warp(new Vector3(54, 1, 24));
         enemy.GetComponent<EnemyAi>().walkPointSet = false;
 
+        ambient.enabled = true;
+
         StartCoroutine(objectiveText());
 
 
@@ -26,7 +30,7 @@ public class mazeLevelStart : MonoBehaviour
     IEnumerator objectiveText()
     {
         prompt.text = "Find a way out";
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
         prompt.text = "";
 
     }

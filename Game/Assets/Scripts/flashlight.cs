@@ -12,6 +12,8 @@ public class flashlight : MonoBehaviour
 
     public playerController playerScript;
 
+    public AudioSource lightBuzz;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,8 @@ public class flashlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (playerScript.toggleFlashlight)
         {
             FireRay();
@@ -32,12 +36,18 @@ public class flashlight : MonoBehaviour
 
         spotted = false;
 
+        
+
+
         RaycastHit hitData;
         if(Physics.Raycast(transform.position, transform.forward, out hitData, 30f))
         {
             if (hitData.collider.tag == "Enemy")
             {
                 spotted = true;
+
+                lightBuzz.enabled = true;
+
                 timer += Time.deltaTime;
                 if (timer < 0.2)
                 {
@@ -55,6 +65,8 @@ public class flashlight : MonoBehaviour
             else
             {
                 myLight.intensity = normalIntensity;
+
+                lightBuzz.enabled = false;
             }
         }
 

@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class reroutePower : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] gameController gameScript;
-    Rect rect = new Rect(Screen.width / 2, Screen.height / 2, 200, 25);
-    bool showGUI = false;
     [SerializeField] GameObject playerFlashlight;
     [SerializeField] EnemyAi enemyScript;
+
+
+    public Text prompt;
+    public AudioSource ambient;
 
     void Start()
     {
@@ -17,7 +20,9 @@ public class reroutePower : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        showGUI = true;
+
+        prompt.text = "Reroute power?";
+
         if (Input.GetKeyUp("e"))
         {
             
@@ -26,20 +31,15 @@ public class reroutePower : MonoBehaviour
             //enemyScript.sightRange = 10f;
             enemyScript.agent.Warp(new Vector3(30, 0, 0));
 
+            ambient.enabled = false;
+
+            prompt.text = "";
             gameObject.SetActive(false);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        showGUI = false;
-    }
-
-    private void OnGUI()
-    {
-        if (showGUI)
-        {
-            GUI.Box(rect, "Press E to reroute power");
-        }
+        prompt.text = "";
     }
 }
