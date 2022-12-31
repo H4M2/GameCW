@@ -153,7 +153,7 @@ public class playerController : MonoBehaviour
     }
     public void lockPlayerMovement()
     {
-        canMove = false;
+        canMove = !canMove;
     }
 
     public void debugButton()

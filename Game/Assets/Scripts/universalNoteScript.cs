@@ -30,6 +30,7 @@ public class universalNoteScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             image.SetActive(!image.activeSelf);
+
             playerScript.lockPlayerMovement();
         }
 
