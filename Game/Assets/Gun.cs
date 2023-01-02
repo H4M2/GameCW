@@ -4,24 +4,54 @@ using UnityEngine;
  
 public class Gun : MonoBehaviour
 {
-    public Transform bulletSpawnPoint;
-    public GameObject bulletPrefab;
-    public float bulletSpeed = 10;
-    public playerController playerScript;
- 
+    public Transform player;
+    public GameObject enemy;
+    public EnemyAi enemyScript;
+
+    public float timer;
+
+    private void Start()
+    {
+        enemyScript = enemy.GetComponent<EnemyAi>();
+    }
     void Update()
     {
-        Gun1();
+        FireGun();
     }
 
-    void Gun1()
+    void FireGun()
     {
-         
-        if(Input.GetMouseButtonDown(0))
+        
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            RaycastHit hitData;
+            if (Physics.Raycast(player.position, player.forward, out hitData, 30f))
             {
-                var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-                bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletSpeed;
+                
+                Debug.Log(hitData.collider.tag);
+
+                if (hitData.collider.tag == "Enemy")
+                {
+                    enemy.GetComponent<CapsuleCollider>().enabled = false;
+                    enemyScript.agent.isStopped = true;
+
+
+
+                    
+                }
             }
+        }
+        if(enemyScript.agent.isStopped)
+        {
+            timer += Time.deltaTime;
+        }
+        if (timer > 5f)
+        {
+            enemy.GetComponent<CapsuleCollider>().enabled = true;
+            enemyScript.agent.isStopped = false;
+
+            timer = 0;
+        }
     }
 
 }
