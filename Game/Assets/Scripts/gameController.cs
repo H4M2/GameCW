@@ -27,7 +27,6 @@ public class gameController : MonoBehaviour
     public bool hidden;
     public bool dead;
     public bool generator = false;
-    bool showDeathGUI = false;
 
     public float maxVolume = 1;
 

@@ -8,6 +8,8 @@ public class Gun : MonoBehaviour
     public GameObject enemy;
     public EnemyAi enemyScript;
 
+    public AudioSource pewSFX;
+
     public float timer;
 
     private void Start()
@@ -21,9 +23,9 @@ public class Gun : MonoBehaviour
 
     void FireGun()
     {
-        
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
+        { 
             RaycastHit hitData;
             if (Physics.Raycast(player.position, player.forward, out hitData, 30f))
             {
@@ -34,6 +36,8 @@ public class Gun : MonoBehaviour
                 {
                     enemy.GetComponent<CapsuleCollider>().enabled = false;
                     enemyScript.agent.isStopped = true;
+
+                    pewSFX.enabled = true;
 
 
 
@@ -49,6 +53,8 @@ public class Gun : MonoBehaviour
         {
             enemy.GetComponent<CapsuleCollider>().enabled = true;
             enemyScript.agent.isStopped = false;
+
+            pewSFX.enabled = false;
 
             timer = 0;
         }

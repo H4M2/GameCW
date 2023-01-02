@@ -14,9 +14,6 @@ public class pickupWalkie : MonoBehaviour
 
     public Text prompt;
 
-    private bool showGUI;
-    private bool activated =false;
-    Rect rect = new Rect(Screen.width / 2, Screen.height / 2, 200, 25);
     public bool inTrigger;
 
 
@@ -55,7 +52,6 @@ public class pickupWalkie : MonoBehaviour
             //Teleports the enemy to the end of the hallway
             enemyAi.agent.Warp(new Vector3(12, 1, -26));
             enemyAi.walkPointSet = false;
-            activated = true;
             //Triggers the flag for allowing the player to open the door
             script.GetComponent<FirstDoor>().setCard();
 

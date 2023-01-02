@@ -357,6 +357,7 @@
 "Assets/Scripts/jumpscare.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/mazeLevelStart.cs"
+"Assets/Scripts/pickupEMPgun.cs"
 "Assets/Scripts/pickupFlashlight.cs"
 "Assets/Scripts/pickupWalkie.cs"
 "Assets/Scripts/playerController.cs"
