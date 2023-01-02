@@ -1,27 +1,60 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Bullet : MonoBehaviour
 {
-    public float life = 3;
+    private Text prompt;
+    private Gun gunScript;
 
-    void Awake()
+    private bool activated = true;
+
+
+    private void Start()
     {
-        Destroy(gameObject, life);
+        gunScript = GameObject.Find("GunParent").GetComponent<Gun>();
+        prompt = GameObject.Find("prompt").GetComponent<Text>();
     }
-
-
-    void OnCollisionEnter(Collision collision)
+    private void OnTriggerStay(Collider other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (activated)
         {
+            prompt.text = "Pickup Ammo?";
+        }
+        
+        if (other.CompareTag("Player"))
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (gunScript.hasBullet)
+                {
+                    StartCoroutine(maxBullets());
+                }
+                else
+                {
+                    gunScript.hasBullet = true;
+                    prompt.text = "";
+                    Destroy(this.gameObject);
+                }
+            }
+        }
             
-        }
-        else
-        {
-            Destroy(this);
-        }
+        
+            
 
     }
+    private void OnTriggerExit(Collider other)
+    {
+        prompt.text = "";
+    }
+    IEnumerator maxBullets()
+    {
+        activated = false;
+        prompt.text = "you already have max bullets";
+        yield return new WaitForSeconds(2);
+        prompt.text = "";
+        activated = true;
+    }
+
 }

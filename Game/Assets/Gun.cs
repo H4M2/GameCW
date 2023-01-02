@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
  
 public class Gun : MonoBehaviour
 {
@@ -12,9 +13,14 @@ public class Gun : MonoBehaviour
 
     public float timer;
 
+    public bool hasBullet;
+
+    public Text prompt;
+
     private void Start()
     {
         enemyScript = enemy.GetComponent<EnemyAi>();
+        hasBullet = true;
     }
     void Update()
     {
@@ -25,26 +31,39 @@ public class Gun : MonoBehaviour
     {
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
-        { 
+        {
             RaycastHit hitData;
-            if (Physics.Raycast(player.position, player.forward, out hitData, 30f))
+            if (hasBullet)
             {
-                
-                Debug.Log(hitData.collider.tag);
-
-                if (hitData.collider.tag == "Enemy")
+                if (Physics.Raycast(player.position, player.forward, out hitData, 30f))
                 {
-                    enemy.GetComponent<CapsuleCollider>().enabled = false;
-                    enemyScript.agent.isStopped = true;
 
-                    pewSFX.enabled = true;
+                    Debug.Log(hitData.collider.tag);
+
+                    if (hitData.collider.tag == "Enemy")
+                    {
+                        enemy.GetComponent<CapsuleCollider>().enabled = false;
+                        enemyScript.agent.isStopped = true;
+
+                        pewSFX.enabled = true;
+
+                        hasBullet = false;
+
+                        
 
 
 
-                    
+                    }
                 }
             }
+            else
+            {
+                StartCoroutine(noBullet());
+
+            }
+
         }
+        
         if(enemyScript.agent.isStopped)
         {
             timer += Time.deltaTime;
@@ -58,6 +77,12 @@ public class Gun : MonoBehaviour
 
             timer = 0;
         }
+    }
+    IEnumerator noBullet()
+    {
+        prompt.text = "No bullets";
+        yield return new WaitForSeconds(2f);
+        prompt.text = "";
     }
 
 }
