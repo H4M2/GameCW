@@ -12,6 +12,8 @@ public class mazeLevelStart : MonoBehaviour
 
     public AudioSource ambient;
 
+    public gameController gameControllerScript;
+
     void Start()
     {
         
@@ -24,8 +26,7 @@ public class mazeLevelStart : MonoBehaviour
         ambient.enabled = true;
 
         StartCoroutine(objectiveText());
-
-
+        gameControllerScript.checkpoint = this.transform.position;
     }
     IEnumerator objectiveText()
     {

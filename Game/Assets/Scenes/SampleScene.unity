@@ -18515,7 +18515,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290647269}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -29069,6 +29069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   staticAudio: {fileID: 1696285041}
   chaseMusic: {fileID: 1594829845}
+  prompt: {fileID: 1258761704}
   player: {fileID: 933951130}
   enemy: {fileID: 1290647269}
   isAngry: 0
@@ -29076,6 +29077,7 @@ MonoBehaviour:
   dead: 0
   generator: 0
   maxVolume: 0.5
+  checkpoint: {x: 0, y: 0, z: 0}
 --- !u!1 &1877928279
 GameObject:
   m_ObjectHideFlags: 0
@@ -30063,6 +30065,7 @@ MonoBehaviour:
   enemy: {fileID: 1290647269}
   prompt: {fileID: 1258761704}
   ambient: {fileID: 259934759}
+  gameControllerScript: {fileID: 1875771449}
 --- !u!65 &1936081816
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class gameController : MonoBehaviour
 {
     //Audio Variables
     public AudioSource staticAudio;
     public AudioSource chaseMusic;
+
+    public Text prompt;
 
     //Player Variables
     
@@ -28,6 +31,8 @@ public class gameController : MonoBehaviour
 
     public float maxVolume = 1;
 
+    public Vector3 checkpoint;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +46,6 @@ public class gameController : MonoBehaviour
     {
 
         StartCoroutine(FadeTrack());
-        //StartCoroutine(deathScene());
 
     }
     IEnumerator FadeTrack()
@@ -86,29 +90,22 @@ public class gameController : MonoBehaviour
     {
         if (dead)
         {
-            showDeathGUI = true;
-
             playerScript.lockPlayerMovement();
             playerScript.mouseSensitivity = 0f;
 
+            prompt.text = "you are dead";
+
             yield return new WaitForSeconds(2);
 
-            player.GetComponent<Transform>().position = new Vector3(12f, 1.25f, 35f);
+            player.GetComponent<Transform>().position = checkpoint;
 
             playerScript.ResetWalkspeed();
             playerScript.ResetMouse();
 
-            showDeathGUI = false;
             dead = false;
+            prompt.text = "";
         }
         yield return null;
-    }
-    private void OnGUI()
-    {
-        if (showDeathGUI)
-        {
-            GUI.Box(rect, "You are Dead");
-        }
     }
     public void deathSceneRunner()
     {
