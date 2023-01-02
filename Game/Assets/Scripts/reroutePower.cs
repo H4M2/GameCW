@@ -7,7 +7,6 @@ public class reroutePower : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] gameController gameScript;
-    [SerializeField] GameObject playerFlashlight;
     [SerializeField] EnemyAi enemyScript;
 
 
@@ -27,9 +26,11 @@ public class reroutePower : MonoBehaviour
         {
             
             gameScript.generator = true;
-            playerFlashlight.SetActive(true);
             //enemyScript.sightRange = 10f;
-            enemyScript.agent.Warp(new Vector3(30, 0, 0));
+            enemyScript.agent.Warp(new Vector3(30, 1, 0));
+
+
+            enemyScript.walkPoint = new Vector3(28, 0, 0);
 
             ambient.enabled = false;
 
