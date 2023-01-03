@@ -20,13 +20,17 @@ public class mazeLevelStart : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        enemy.GetComponent<EnemyAi>().agent.Warp(new Vector3(54, 1, 24));
-        enemy.GetComponent<EnemyAi>().walkPointSet = false;
+        if (other.CompareTag("Player"))
+        {
+            enemy.GetComponent<EnemyAi>().agent.Warp(new Vector3(54, 1, 24));
+            enemy.GetComponent<EnemyAi>().walkPointSet = false;
 
-        ambient.enabled = true;
+            ambient.enabled = true;
 
-        StartCoroutine(objectiveText());
-        gameControllerScript.checkpoint = this.transform.position;
+            StartCoroutine(objectiveText());
+            gameControllerScript.checkpoint = this.transform.position;
+        }
+            
     }
     IEnumerator objectiveText()
     {

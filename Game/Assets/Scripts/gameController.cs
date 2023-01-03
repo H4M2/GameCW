@@ -32,6 +32,8 @@ public class gameController : MonoBehaviour
 
     public Vector3 checkpoint;
 
+    public int collectible;
+
     // Start is called before the first frame update
     void Start()
     {
