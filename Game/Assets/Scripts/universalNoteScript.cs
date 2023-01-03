@@ -26,12 +26,16 @@ public class universalNoteScript : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        prompt.text = "Press E to read Note";
-        if (Input.GetKeyDown(KeyCode.E))
+        if (other.CompareTag("Player"))
         {
-            image.SetActive(!image.activeSelf);
 
-            playerScript.lockPlayerMovement();
+            prompt.text = "Press E to read Note";
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                image.SetActive(!image.activeSelf);
+
+                playerScript.lockPlayerMovement();
+            }
         }
 
     }

@@ -19,24 +19,28 @@ public class reroutePower : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-
-        prompt.text = "Reroute power?";
-
-        if (Input.GetKeyUp("e"))
+        if (other.CompareTag("Player"))
         {
-            
-            gameScript.generator = true;
-            //enemyScript.sightRange = 10f;
-            enemyScript.agent.Warp(new Vector3(30, 1, 0));
+            prompt.text = "Reroute power?";
+
+            if (Input.GetKeyUp("e"))
+            {
+
+                gameScript.generator = true;
+                //enemyScript.sightRange = 10f;
+                enemyScript.agent.Warp(new Vector3(30, 1, 0));
 
 
-            enemyScript.walkPoint = new Vector3(28, 0, 0);
+                enemyScript.walkPoint = new Vector3(28, 0, 0);
 
-            ambient.enabled = false;
+                ambient.enabled = false;
 
-            prompt.text = "";
-            gameObject.SetActive(false);
+                prompt.text = "";
+                gameObject.SetActive(false);
+            }
         }
+
+        
     }
 
     private void OnTriggerExit(Collider other)

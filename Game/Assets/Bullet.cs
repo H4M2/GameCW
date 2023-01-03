@@ -18,10 +18,14 @@ public class Bullet : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (activated)
+        if (other.CompareTag("Player"))
         {
-            prompt.text = "Pickup Ammo?";
+            if (activated)
+            {
+                prompt.text = "Pickup Ammo?";
+            }
         }
+            
         
         if (other.CompareTag("Player"))
         {
