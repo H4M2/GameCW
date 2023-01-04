@@ -34,6 +34,8 @@ public class gameController : MonoBehaviour
 
     public int collectible;
 
+    public int keypad;
+
     // Start is called before the first frame update
     void Start()
     {

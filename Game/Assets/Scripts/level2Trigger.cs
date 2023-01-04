@@ -27,6 +27,20 @@ public class level2Trigger : MonoBehaviour
             enemy.GetComponent<EnemyAi>().walkPointSet = false;
 
             gameControllerScript.checkpoint = this.transform.position;
+            gameControllerScript.generator = false;
+
+            StartCoroutine(inform());
+
         }
+    }
+    IEnumerator inform()
+    {
+        yield return new WaitForSeconds(0.2f);
+        this.transform.position = new Vector3(1000, 0, 0);
+        prompt.text = "Activate the two kepads to exit";
+        yield return new WaitForSeconds(3f);
+        prompt.text = "";
+        Destroy(this);
+        
     }
 }
