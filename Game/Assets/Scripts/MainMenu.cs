@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
     public void GoToScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
