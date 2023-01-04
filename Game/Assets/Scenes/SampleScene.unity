@@ -17943,7 +17943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &876245482
 Transform:
   m_ObjectHideFlags: 0
@@ -17980,7 +17980,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876245481}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -18149,7 +18149,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunParent
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 750263377543021569, guid: bbc66f6e04e3e264cbdf4b4a3438a15a, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc66f6e04e3e264cbdf4b4a3438a15a, type: 3}
 --- !u!4 &881626971 stripped
@@ -43133,7 +43134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1988603950
 MeshRenderer:
   m_ObjectHideFlags: 0
