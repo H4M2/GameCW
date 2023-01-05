@@ -7,7 +7,7 @@ public class RollTheCredits : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "player")
+        if (other.tag == "Player")
         {
             Debug.Log("You beat the game!!!");
             SceneManager.LoadScene("Credits");

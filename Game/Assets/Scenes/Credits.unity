@@ -315,7 +315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mohammed Hamza Ahad - INSERT BRIEF TASK DESC
+  m_text: Mohammed Hamza Ahad
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
   m_sharedMaterial: {fileID: 5747929969140421201, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.8
+  m_fontSize: 41.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tan Chuan Wei - INSERT BRIEF TASK DESC
+  m_text: Tan Chuan Wei
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
   m_sharedMaterial: {fileID: 5747929969140421201, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
@@ -1016,7 +1016,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.05
+  m_fontSize: 41.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1337,7 +1337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chris Curry - INSERT BRIEF TASK DESC
+  m_text: Chris Curry
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
   m_sharedMaterial: {fileID: 5747929969140421201, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.55
+  m_fontSize: 41.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kem Ibodi - General logic & UI
+  m_text: Kem Ibodi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
   m_sharedMaterial: {fileID: 5747929969140421201, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rashad Ahmed - INSERT BRIEF TASK DESC
+  m_text: Rashad Ahmed
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
   m_sharedMaterial: {fileID: 5747929969140421201, guid: 85cd40bd195d46848b576596b33bb778, type: 2}
@@ -1944,7 +1944,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.1
+  m_fontSize: 41.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
