@@ -5,16 +5,16 @@ using UnityEngine;
 public class hide_script : MonoBehaviour
 {
     //The player object
-    GameObject player;
-    Transform player_Transform;
-    playerController playerScript = null;
+    public GameObject player;
+    public Transform player_Transform;
+    public playerController playerScript = null;
 
     //Cameras
     [SerializeField] Camera hideCamera;
-    Camera playerCamera;
+    public Camera playerCamera;
 
     //GetEvent Controller
-    GameObject gameController;
+    public GameObject gameController;
 
     float raylength = 2f;
 
@@ -23,9 +23,9 @@ public class hide_script : MonoBehaviour
     Rect rect = new Rect(Screen.width / 2, Screen.height / 2, 200, 25);
     public LayerMask theLocker;
 
-    bool showGui = false;
+    private bool showGui = false;
 
-    void Start()
+    void Awake()
     {
         //Player Variables
         player = GameObject.FindWithTag("Player");
@@ -41,6 +41,8 @@ public class hide_script : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
+        
+
         RaycastHit hit;
         //OnGUI();
         showGui = false;
@@ -50,18 +52,25 @@ public class hide_script : MonoBehaviour
             //Debug.Log(hit.collider.gameObject.tag);
             
             showGui = true;
-            if (Input.GetKeyUp("e"))
+            if (!isHiding)
             {
-                //Debug.Log("yes?");
-                hideCamera.enabled = true;
-                playerCamera.enabled = false;
+                if (Input.GetKeyUp("e"))
+                {
+                    //Debug.Log("yes?");
+                    hideCamera.enabled = true;
+                    playerCamera.enabled = false;
 
-                isHiding = true;
-                gameController.GetComponent<gameController>().hidden = true;
-                playerScript.lockPlayerMovement();
-                playerScript.mouseSensitivity = 0;
+                    isHiding = true;
+                    gameController.GetComponent<gameController>().hidden = true;
 
+
+
+                    playerScript.lockPlayerMovement();
+                    playerScript.mouseSensitivity = 0;
+
+                }
             }
+            
             if (isHiding)
             {
                 if (Input.GetKeyUp(KeyCode.LeftShift))

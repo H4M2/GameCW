@@ -152,7 +152,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 487262736}
-  - {fileID: 1248907426}
   - {fileID: 2144289396}
   - {fileID: 829977304}
   - {fileID: 985708125}
@@ -1578,6 +1577,11 @@ Transform:
 --- !u!4 &73521088 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2581817117865614269, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
+  m_PrefabInstance: {fileID: 1930026587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &73521090 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2581817117865614271, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
   m_PrefabInstance: {fileID: 1930026587}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &74418369
@@ -7021,7 +7025,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 1117735018}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -8118,7 +8127,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 544070508}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -8186,65 +8200,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403248131}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &403551788
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 2
-    m_TransformParent: {fileID: 1898089}
-    m_Modifications:
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.171753
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.06569409
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -47.26648
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4653623460605391750, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-      propertyPath: m_Name
-      value: bulletTrigger (11)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
 --- !u!1 &406237656
 GameObject:
   m_ObjectHideFlags: 0
@@ -14732,7 +14687,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 1007498440}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -18739,7 +18699,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunParent
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 750263377543021569, guid: bbc66f6e04e3e264cbdf4b4a3438a15a, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc66f6e04e3e264cbdf4b4a3438a15a, type: 3}
 --- !u!4 &881626971 stripped
@@ -20192,7 +20153,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 1215910400}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -21934,7 +21900,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 406237657}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -22639,7 +22610,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 1362380088}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -23683,7 +23659,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 1198281345}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -24981,7 +24962,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 857542096}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -25987,11 +25973,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b34895a5cbeae0246af9c017f7df4b1b, type: 3}
---- !u!4 &1248907426 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
-  m_PrefabInstance: {fileID: 403551788}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1250332472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28906,7 +28887,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 750263377543021569, guid: bbc66f6e04e3e264cbdf4b4a3438a15a, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc66f6e04e3e264cbdf4b4a3438a15a, type: 3}
 --- !u!1 &1367502074
@@ -32290,7 +32272,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 1803489513}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -32695,7 +32682,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 1917921764}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -36213,7 +36205,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 765232936}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -42438,7 +42435,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 21732040}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -45150,7 +45152,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 0}
   hideCamera: {fileID: 271004990}
+  playerCamera: {fileID: 0}
+  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -45458,7 +45465,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 933951130}
+  player_Transform: {fileID: 0}
+  playerScript: {fileID: 1750104431}
   hideCamera: {fileID: 1099293782}
+  playerCamera: {fileID: 73521090}
+  gameController: {fileID: 1875771447}
   isHiding: 0
   theLocker:
     serializedVersion: 2

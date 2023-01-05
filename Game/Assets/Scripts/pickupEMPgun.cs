@@ -28,6 +28,8 @@ public class pickupEMPgun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             gun.SetActive(true);
+            prompt.text = "";
+            Destroy(this.gameObject);
         }
 
     }
