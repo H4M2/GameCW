@@ -6,15 +6,17 @@ using UnityEngine.UI;
 public class Bullet : MonoBehaviour
 {
     private Text prompt;
+
     private Gun gunScript;
 
-    private bool activated = true;
+    private bool activated;
 
 
     private void Start()
     {
-        gunScript = GameObject.Find("GunParent").GetComponent<Gun>();
+        gunScript = GameObject.Find("GunParentMain").GetComponent<Gun>();
         prompt = GameObject.Find("prompt").GetComponent<Text>();
+        activated = true;
     }
     private void OnTriggerStay(Collider other)
     {

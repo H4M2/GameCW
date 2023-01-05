@@ -17,6 +17,8 @@ public class Gun : MonoBehaviour
 
     public Text prompt;
 
+    public GameObject GunModel;
+
     private void Start()
     {
         enemyScript = enemy.GetComponent<EnemyAi>();
@@ -32,36 +34,38 @@ public class Gun : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            RaycastHit hitData;
-            if (hasBullet)
+            if (GunModel.activeSelf == true)
             {
-                if (Physics.Raycast(player.position, player.forward, out hitData, 30f))
+                RaycastHit hitData;
+                if (hasBullet)
                 {
-
-                    Debug.Log(hitData.collider.tag);
-
-                    if (hitData.collider.tag == "Enemy")
+                    if (Physics.Raycast(player.position, player.forward, out hitData, 30f))
                     {
-                        enemy.GetComponent<CapsuleCollider>().enabled = false;
-                        enemyScript.agent.isStopped = true;
 
-                        pewSFX.enabled = true;
+                        Debug.Log(hitData.collider.tag);
 
-                        hasBullet = false;
+                        if (hitData.collider.tag == "Enemy")
+                        {
+                            enemy.GetComponent<CapsuleCollider>().enabled = false;
+                            enemyScript.agent.isStopped = true;
 
-                        
+                            pewSFX.enabled = true;
+
+                            hasBullet = false;
 
 
 
+
+
+                        }
                     }
                 }
-            }
-            else
-            {
-                StartCoroutine(noBullet());
+                else
+                {
+                    StartCoroutine(noBullet());
 
+                }
             }
-
         }
         
         if(enemyScript.agent.isStopped)

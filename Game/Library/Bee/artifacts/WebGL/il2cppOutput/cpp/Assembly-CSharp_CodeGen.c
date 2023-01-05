@@ -220,20 +220,20 @@ extern void Gun_FireGun_mA04E9FBF798DAFDB1D58CAD5CD7D5C2B0BCBA8B3 (void);
 extern void Gun_noBullet_m8CCAF518BBD8132073635789E90AE9B43111B117 (void);
 // 0x00000068 System.Void Gun::.ctor()
 extern void Gun__ctor_m55BE2F29049D4DD5E4B1201A5D6B1BC7B61026E4 (void);
-// 0x00000069 System.Void Gun/<noBullet>d__10::.ctor(System.Int32)
-extern void U3CnoBulletU3Ed__10__ctor_mA97487D49BAB2AE735C0B2CA2CFF1C59035E049E (void);
-// 0x0000006A System.Void Gun/<noBullet>d__10::System.IDisposable.Dispose()
-extern void U3CnoBulletU3Ed__10_System_IDisposable_Dispose_m2F20562C9F3DC99D3BFFE01988D6EA4438EBD513 (void);
-// 0x0000006B System.Boolean Gun/<noBullet>d__10::MoveNext()
-extern void U3CnoBulletU3Ed__10_MoveNext_m2889A5542FFB33F1D5FB14CC525E76419C6C7094 (void);
-// 0x0000006C System.Object Gun/<noBullet>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CnoBulletU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4DDB55BCD948F2DBEC89CEDFD52B4F52D9F748E2 (void);
-// 0x0000006D System.Void Gun/<noBullet>d__10::System.Collections.IEnumerator.Reset()
-extern void U3CnoBulletU3Ed__10_System_Collections_IEnumerator_Reset_mEE03F2119DA82A9D847C9ABFA33F39FE04F64E49 (void);
-// 0x0000006E System.Object Gun/<noBullet>d__10::System.Collections.IEnumerator.get_Current()
-extern void U3CnoBulletU3Ed__10_System_Collections_IEnumerator_get_Current_m51ADA9B8D674075A4A37CB5B472044FAE4146922 (void);
-// 0x0000006F System.Void hide_script::Awake()
-extern void hide_script_Awake_mE12FF4210EE6AE0CE61D98372BB63CDC6BB2E240 (void);
+// 0x00000069 System.Void Gun/<noBullet>d__11::.ctor(System.Int32)
+extern void U3CnoBulletU3Ed__11__ctor_m8C40FCE2AD77549EF602F3E72A77B76112150CC7 (void);
+// 0x0000006A System.Void Gun/<noBullet>d__11::System.IDisposable.Dispose()
+extern void U3CnoBulletU3Ed__11_System_IDisposable_Dispose_m1D5F6DE9414ADA371AEDDCFEFB986838700A7936 (void);
+// 0x0000006B System.Boolean Gun/<noBullet>d__11::MoveNext()
+extern void U3CnoBulletU3Ed__11_MoveNext_m9781129C95BBFA834477579A943C423F2370E4A7 (void);
+// 0x0000006C System.Object Gun/<noBullet>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CnoBulletU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m53686547276C5F142CF990111674BCB11CF50DCB (void);
+// 0x0000006D System.Void Gun/<noBullet>d__11::System.Collections.IEnumerator.Reset()
+extern void U3CnoBulletU3Ed__11_System_Collections_IEnumerator_Reset_m831BDC805C84F1F676A2158BFB2B708DD107BDAD (void);
+// 0x0000006E System.Object Gun/<noBullet>d__11::System.Collections.IEnumerator.get_Current()
+extern void U3CnoBulletU3Ed__11_System_Collections_IEnumerator_get_Current_mB17FA633E0F19070650282DAD8DB91D31BD12A4D (void);
+// 0x0000006F System.Void hide_script::Start()
+extern void hide_script_Start_m16CDA630B1F06898574D2819E1E3E76A92940F04 (void);
 // 0x00000070 System.Void hide_script::OnTriggerStay(UnityEngine.Collider)
 extern void hide_script_OnTriggerStay_mC2973A66D4A8C0D3FE9F4D079D43938FCD752A55 (void);
 // 0x00000071 System.Void hide_script::OnTriggerExit(UnityEngine.Collider)
@@ -1100,13 +1100,13 @@ static Il2CppMethodPointer s_methodPointers[491] =
 	Gun_FireGun_mA04E9FBF798DAFDB1D58CAD5CD7D5C2B0BCBA8B3,
 	Gun_noBullet_m8CCAF518BBD8132073635789E90AE9B43111B117,
 	Gun__ctor_m55BE2F29049D4DD5E4B1201A5D6B1BC7B61026E4,
-	U3CnoBulletU3Ed__10__ctor_mA97487D49BAB2AE735C0B2CA2CFF1C59035E049E,
-	U3CnoBulletU3Ed__10_System_IDisposable_Dispose_m2F20562C9F3DC99D3BFFE01988D6EA4438EBD513,
-	U3CnoBulletU3Ed__10_MoveNext_m2889A5542FFB33F1D5FB14CC525E76419C6C7094,
-	U3CnoBulletU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4DDB55BCD948F2DBEC89CEDFD52B4F52D9F748E2,
-	U3CnoBulletU3Ed__10_System_Collections_IEnumerator_Reset_mEE03F2119DA82A9D847C9ABFA33F39FE04F64E49,
-	U3CnoBulletU3Ed__10_System_Collections_IEnumerator_get_Current_m51ADA9B8D674075A4A37CB5B472044FAE4146922,
-	hide_script_Awake_mE12FF4210EE6AE0CE61D98372BB63CDC6BB2E240,
+	U3CnoBulletU3Ed__11__ctor_m8C40FCE2AD77549EF602F3E72A77B76112150CC7,
+	U3CnoBulletU3Ed__11_System_IDisposable_Dispose_m1D5F6DE9414ADA371AEDDCFEFB986838700A7936,
+	U3CnoBulletU3Ed__11_MoveNext_m9781129C95BBFA834477579A943C423F2370E4A7,
+	U3CnoBulletU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m53686547276C5F142CF990111674BCB11CF50DCB,
+	U3CnoBulletU3Ed__11_System_Collections_IEnumerator_Reset_m831BDC805C84F1F676A2158BFB2B708DD107BDAD,
+	U3CnoBulletU3Ed__11_System_Collections_IEnumerator_get_Current_mB17FA633E0F19070650282DAD8DB91D31BD12A4D,
+	hide_script_Start_m16CDA630B1F06898574D2819E1E3E76A92940F04,
 	hide_script_OnTriggerStay_mC2973A66D4A8C0D3FE9F4D079D43938FCD752A55,
 	hide_script_OnTriggerExit_m53F5F030379392D2CE1A7A674E4A3E168CE16974,
 	hide_script_OnGUI_m1B289A9B68BFA87AD9C56768D866D25574D04263,

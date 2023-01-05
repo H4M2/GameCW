@@ -5,16 +5,16 @@ using UnityEngine;
 public class hide_script : MonoBehaviour
 {
     //The player object
-    public GameObject player;
-    public Transform player_Transform;
-    public playerController playerScript = null;
+    private GameObject player;
+    private Transform player_Transform;
+    private playerController playerScript;
 
     //Cameras
     [SerializeField] Camera hideCamera;
-    public Camera playerCamera;
+    private Camera playerCamera;
 
     //GetEvent Controller
-    public GameObject gameController;
+    private GameObject gameController;
 
     float raylength = 2f;
 
@@ -25,10 +25,10 @@ public class hide_script : MonoBehaviour
 
     private bool showGui = false;
 
-    void Awake()
+    void Start()
     {
         //Player Variables
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.Find("Player");
         playerCamera = player.GetComponentInChildren<Camera>();
         player_Transform = player.GetComponent<Transform>();
         playerScript = player.GetComponent<playerController>();

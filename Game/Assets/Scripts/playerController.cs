@@ -71,11 +71,7 @@ public class playerController : MonoBehaviour
         {
             footstep.enabled = false;
         }
-        
-    
 
-
-        
     }
 
     void LoadValues()
