@@ -42,6 +42,7 @@ public class gameController : MonoBehaviour
         //staticAudio.Play();
         toggle = false;
         playerScript = player.GetComponent<playerController>();
+        LoadValues();
     }
 
     // Update is called once per frame
@@ -113,5 +114,11 @@ public class gameController : MonoBehaviour
     public void deathSceneRunner()
     {
         StartCoroutine(deathScene());
+    }
+
+    void LoadValues()
+    {
+        float volumeValue = PlayerPrefs.GetFloat("GameVolume");
+        AudioListener.volume = volumeValue;
     }
 }

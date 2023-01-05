@@ -47,6 +47,7 @@ public class playerController : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
+        LoadValues();
     }
 
     void Update()
@@ -75,6 +76,18 @@ public class playerController : MonoBehaviour
 
 
         
+    }
+
+    void LoadValues()
+    {
+        float sensValue = PlayerPrefs.GetFloat("MouseSensitivity");
+        if (sensValue > 0)
+        {
+            mouseSensitivity *= sensValue;
+        } else
+        {
+            mouseSensitivity *= 0.1f;
+        }
     }
 
     void UpdateMouseLook()
