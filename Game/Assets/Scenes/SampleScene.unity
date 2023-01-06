@@ -1579,11 +1579,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2581817117865614269, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
   m_PrefabInstance: {fileID: 1930026587}
   m_PrefabAsset: {fileID: 0}
---- !u!20 &73521090 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2581817117865614271, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
-  m_PrefabInstance: {fileID: 1930026587}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &74418369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3005,7 +3000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &137929413
 Transform:
   m_ObjectHideFlags: 0
@@ -3279,7 +3274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &150159402
 Transform:
   m_ObjectHideFlags: 0
@@ -7122,12 +7117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 1117735018}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -8224,12 +8214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 544070508}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -14784,12 +14769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 1007498440}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -19779,7 +19759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.392704
+      value: 9.892704
       objectReference: {fileID: 0}
     - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19787,7 +19767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.279478
+      value: -25.279478
       objectReference: {fileID: 0}
     - target: {fileID: 4653623460605391739, guid: 585a1359ec88d8644a6b2c72c35b9bca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20157,12 +20137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 1215910400}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -21904,12 +21879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 406237657}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -22614,12 +22584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 1362380088}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -23663,12 +23628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 1198281345}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -24966,12 +24926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 857542096}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -27185,7 +27140,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290647269}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -28229,7 +28184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1330298971
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32276,12 +32231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 1803489513}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -32686,12 +32636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 1917921764}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -36209,12 +36154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 765232936}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -42439,12 +42379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 21732040}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -42725,7 +42660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2581817118137286428, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.713
+      value: -24.036999
       objectReference: {fileID: 0}
     - target: {fileID: 2581817118137286428, guid: 8cc95d8d20b21524f8eb48fcc43a280b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -44975,12 +44910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 0}
   hideCamera: {fileID: 271004990}
-  playerCamera: {fileID: 0}
-  gameController: {fileID: 0}
   isHiding: 0
   theLocker:
     serializedVersion: 2
@@ -45288,12 +45218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d30534e5fc2fde4d81a5e631b9cc15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 933951130}
-  player_Transform: {fileID: 0}
-  playerScript: {fileID: 1750104431}
   hideCamera: {fileID: 1099293782}
-  playerCamera: {fileID: 73521090}
-  gameController: {fileID: 1875771447}
   isHiding: 0
   theLocker:
     serializedVersion: 2
