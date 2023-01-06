@@ -9,6 +9,11 @@ public class Credits : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+    }
+    private void Update()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
     }
     public void GoToMainMenu()
     {

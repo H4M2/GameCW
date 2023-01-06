@@ -6633,6 +6633,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpookyU3Ed__6__ctor_mFFAA2DA1D188EB86
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854 (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, float ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Cursor::set_lockState(UnityEngine.CursorLockMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9 (int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Cursor::set_visible(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7 (bool ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
@@ -6811,14 +6815,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NavMeshAgent_Warp_mAD14E576F74544EEDAD0A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* level2Trigger_inform_m8B6F5E7493F285434560D4EAF5BF8C8D9A1BD5CE (level2Trigger_t9E4359838D2C1A6DF097170202E269ED84515783* __this, const RuntimeMethod* method) ;
 // System.Void level2Trigger/<inform>d__5::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CinformU3Ed__5__ctor_mE0B1AE3C6FD801E0E538210071D004BC10219005 (U3CinformU3Ed__5_t553FD21F6894AF1E0DE2AFDC4D16EF25E3040FD2* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Cursor::set_lockState(UnityEngine.CursorLockMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9 (int32_t ___value0, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator mazeLevelStart::objectiveText()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* mazeLevelStart_objectiveText_m9023DE6F8CCA9C4FB32AADA6C328CEADEF5B0E46 (mazeLevelStart_t68A4AD3B2991BBAD21E13628CDC13F54516D5949* __this, const RuntimeMethod* method) ;
 // System.Void mazeLevelStart/<objectiveText>d__6::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CobjectiveTextU3Ed__6__ctor_m155253A31B77404286790734A5E5724F3775F679 (U3CobjectiveTextU3Ed__6_t1811CF8CF661B5C4087C4A9B628A11DA9E70EB7C* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Cursor::set_visible(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7 (bool ___value0, const RuntimeMethod* method) ;
 // System.Void PauseMenu::Resume()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_Resume_mA45D6E4F27172EF775FC2D3F694BE90882DBE831 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) ;
 // System.Void PauseMenu::Pause()
@@ -8346,6 +8346,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpookyU3Ed__6_System_Collec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Credits::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Credits_Start_m6DFBCEA32F2C71A49720DF3F5D928326CE483C26 (Credits_tBBC07C3828896827C56E49CF1E9818E15A428A99* __this, const RuntimeMethod* method) 
+{
+	{
+		// Cursor.lockState = CursorLockMode.Confined;
+		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(2, NULL);
+		// Cursor.visible = true;
+		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Credits::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Credits_Update_mEA2A7F98723F10360C1C5C0D6868DEC0DBCD81E1 (Credits_tBBC07C3828896827C56E49CF1E9818E15A428A99* __this, const RuntimeMethod* method) 
+{
+	{
+		// Cursor.lockState = CursorLockMode.Confined;
+		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(2, NULL);
+		// }
+		return;
+	}
+}
 // System.Void Credits::GoToMainMenu()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Credits_GoToMainMenu_m92183F2758EE6C31CC25FCD5C38E6C5739DAB091 (Credits_tBBC07C3828896827C56E49CF1E9818E15A428A99* __this, const RuntimeMethod* method) 
 {
