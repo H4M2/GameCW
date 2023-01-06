@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour
 {
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
     public void GoToMainMenu()
     {
         // Make sure MainMenu is the 1st scene in build setrtings and has index 0
